@@ -37,7 +37,7 @@ def generate_datasets():
     with open("datasets/orders.json", "w") as f:
         json.dump(orders, f)
     
-    print("  ✓ Generated: datasets/orders.json\n")
+    print("   Generated: datasets/orders.json\n")
     
     # ========================================================================
     # Dataset B: Product Catalog (100,000 entries)
@@ -64,7 +64,7 @@ def generate_datasets():
     with open("datasets/products.json", "w") as f:
         json.dump(products, f)
     
-    print("  ✓ Generated: datasets/products.json\n")
+    print("   Generated: datasets/products.json\n")
     
     # ========================================================================
     # Dataset C: Inventory Reconciliation (25,000 entries)
@@ -80,7 +80,7 @@ def generate_datasets():
     with open("datasets/inventory.json", "w") as f:
         json.dump(inventory, f)
     
-    print("  ✓ Generated: datasets/inventory.json\n")
+    print("   Generated: datasets/inventory.json\n")
     
     # ========================================================================
     # Dataset D: Customer Activity Log (75,000 entries)
@@ -108,7 +108,7 @@ def generate_datasets():
     with open("datasets/activity_log.json", "w") as f:
         json.dump(activity_log, f)
     
-    print("  ✓ Generated: datasets/activity_log.json\n")
+    print("   Generated: datasets/activity_log.json\n")
     
     # ========================================================================
     # Generate Small Test Cases for Verification
@@ -133,7 +133,7 @@ def generate_datasets():
     with open("datasets/test_cases.json", "w") as f:
         json.dump(test_cases, f, indent=2)
     
-    print("✓ Test cases generated: datasets/test_cases.json")
+    print(" Test cases generated: datasets/test_cases.json")
     print("\nDataset generation complete!")
     print("\nYou can now implement your sorting algorithms in starter_code.py")
     print("and use these datasets to benchmark performance.\n")
